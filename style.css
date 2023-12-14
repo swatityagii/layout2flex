@@ -9,467 +9,654 @@ body {
   height: 100%;
   width: 100%;
 }
-.container{
-    height: 100vh;
+.container {
+  height: 100vh;
 }
 .header {
-    background-color: black;
-    color: grey;
-    padding-top: 2.1vh;
-    padding-bottom: 2.1vh;
-    padding-left: 7vw;
-    gap: 0.9vw;
-    display: flex;
-    align-items: center;
-  }
-.main{
-    margin-left: 7vw;
-    margin-right: 7vw;
-    margin-top: 3vw;
+  background-color: black;
+  color: grey;
+  padding-top: 2.1vh;
+  padding-bottom: 2.1vh;
+  padding-left: 7vw;
+  gap: 0.9vw;
+  display: flex;
+  align-items: center;
 }
-img{
-    width: 100%;
+.main {
+  margin-left: 7vw;
+  margin-right: 7vw;
+  margin-top: 3vw;
 }
-.button{
-    border-radius: 5px;
+img {
+  width: 100%;
+}
+.button {
+  border-radius: 5px;
 }
 .menu {
-    padding-left: 0.5vw;
-    padding-right: 0.5vw;
-    opacity: 0.9;
-  }
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  opacity: 0.9;
+}
+.layout {
+  font-size: 20px;
+}
+.headingm {
+  display: flex;
+  /* flex-wrap: wrap; */
+  padding-left: 5vw;
+  gap: 1em;
+  padding-top: 2vh;
+  padding-bottom: 0.5vh;
+}
+.heading {
+  padding: 7vh 4vw;
+  margin-bottom: 5vh;
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+.action_button {
+  color: white;
+  background-color: #428bca;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+  border: none;
+  padding: 1.2vh 1vw;
+  border-radius: 3px;
+}
+.hr {
+  margin-bottom: 5vh;
+  border-top: 1px solid rgb(237, 237, 241);
+}
+.lat_features {
+  margin-bottom: 1.8vh;
+}
+.row_content {
+  display: flex;
+  gap: 2vw;
+}
+.content {
+  text-align: center;
+  border: 1.5px solid rgb(237, 237, 241);
+  padding-bottom: 12px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  border-radius: 3px;
+  width: 21vw;
+}
+.feat_label {
+  margin-top: 3vh;
+  margin-bottom: 1.5vh;
+}
+.hr2 {
+  border-top: 1px solid rgb(237, 237, 241);
+  margin-top: 6vh;
+}
+.buyinfobuttons {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.buy {
+  color: white;
+  background-color: #428bca;
+  border: none;
+  padding: 1.3vh 0.7vw;
+  border-radius: 3px;
+}
+.info {
+  border: 1px solid rgb(237, 237, 241);
+  background: white;
+  padding: 1.2vh 0.6vw;
+  border-radius: 3px;
+}
+@media screen and (min-width: 1801px) and (max-width: 2560px) {
   .layout {
-    font-size: 20px;
+    font-size: 34px;
   }
-  .headingm {
-    display: flex;
-    /* flex-wrap: wrap; */
-    padding-left: 5vw;
-    gap: 1em;
-    padding-top: 2vh;
-    padding-bottom: 0.5vh;
+  .samplehead {
+    font-size: 85px;
+    font-weight: 500;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+    width: fit-content;
+    opacity: 0.8;
   }
-  .heading {
-    padding: 7vh 4vw;
-    margin-bottom: 5vh;
-    background-color: #eeeeee;
-    border-radius: 5px;
+  .m {
+    font-size: 26.5px;
+  }
+  .text1 {
+    font-size: 32px;
+    opacity: 0.85;
+  }
+  .main {
+    margin-top: 80px;
   }
   .action_button {
-    color: white;
-    background-color: #428bca;
-    margin-top: 1vh;
-    margin-bottom: 2vh;
-    border: none;
-    padding: 1.2vh 1vw;
-    border-radius: 3px;
+    margin-top: 1.5vw;
   }
-  .hr {
-    margin-bottom: 5vh;
-    border-top: 1px solid rgb(237, 237, 241);
+  .heading {
+    padding: 95px 114px;
   }
   .lat_features {
-    margin-bottom: 1.8vh;
+    font-size: 35.5px;
+    opacity: 0.8;
+  }
+  .feat_label {
+    font-size: 36px;
+    opacity: 0.85;
+  }
+  .text,
+  .copyright {
+    font-size: 27px;
+    opacity: 0.8;
+  }
+  .hr2 {
+    margin-top: 8vh;
+  }
+  .copyright {
+    margin-top: 6vh;
+    padding-bottom: 8vh;
+  }
+  button {
+    font-size: 25px;
+  }
+  .button {
+    border-radius: 8px;
+  }
+}
+@media screen and (min-width: 1440px) and (max-width: 1800px) {
+  .layout {
+    font-size: 22px;
+  }
+  .samplehead {
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+    width: fit-content;
+    opacity: 0.8;
+  }
+  .m {
+    font-size: 18.5px;
+  }
+  .text1 {
+    font-size: 24px;
+    opacity: 0.85;
+  }
+  .main {
+    margin-top: 78px;
+  }
+  .action_button {
+    margin-top: 1.5vw;
+    padding: 13px 16px;
+  }
+  .heading {
+    padding: 50px 58px;
+  }
+  .lat_features {
+    font-size: 27.5px;
+    opacity: 0.8;
+  }
+  .feat_label {
+    font-size: 28px;
+    opacity: 0.85;
+  }
+  .text,
+  .copyright {
+    font-size: 19px;
+    opacity: 0.8;
+  }
+  .hr2 {
+    margin-top: 8vh;
+  }
+  .copyright {
+    margin-top: 6vh;
+    padding-bottom: 8vh;
+  }
+  .button {
+    border-radius: 5px;
+  }
+  .info{
+    padding: 13px 16px;
+  }
+  .buy{
+    padding: 13px 16px;
+  }
+}
+@media screen and (min-width: 1023px) and (max-width: 1439px) {
+  .layout {
+    font-size: 17px;
+  }
+  .samplehead {
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+    width: fit-content;
+    opacity: 0.8;
+  }
+  .m {
+    font-size: 13.5px;
+  }
+  .text1 {
+    font-size: 19px;
+    opacity: 0.85;
+  }
+  .main {
+    margin-top: 60px;
+  }
+  .action_button {
+    margin-top: 1.5vw;
+    padding: 10px 13px;
+  }
+  .heading {
+    padding: 46px 50px;
+  }
+  .lat_features {
+    font-size: 22.5px;
+    opacity: 0.8;
+  }
+  .feat_label {
+    font-size: 23px;
+    opacity: 0.85;
+  }
+  .text,
+  .copyright {
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  .hr2 {
+    margin-top: 8vh;
+  }
+  .copyright {
+    margin-top: 6vh;
+    padding-bottom: 8vh;
+  }
+  .info{
+    padding: 10px 13px;
+  }
+  .buy{
+    padding: 10px 13px;
+  }
+}
+@media screen and (min-width: 771px) and (max-width: 1022px) {
+  .layout {
+    font-size: 16px;
+  }
+  .samplehead {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+    width: fit-content;
+    opacity: 0.8;
+  }
+  .m {
+    font-size: 12.5px;
+  }
+  .text1 {
+    font-size: 16px;
+    opacity: 0.85;
+  }
+  .main {
+    margin-top: 30px;
+  }
+  .action_button {
+    margin-top: 1.5vw;
+    padding: 7px 9px;
+  }
+  .heading {
+    padding: 18px 26px;
+  }
+  .lat_features {
+    font-size: 21.5px;
+    opacity: 0.8;
+  }
+  .feat_label {
+    font-size: 23px;
+    opacity: 0.85;
+  }
+  .text {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 0.8;
+  }
+  .hr2 {
+    margin-top: 5vh;
+  }
+  .copyright {
+    font-size: 14px;
+    margin-top: 5vh;
+    padding-bottom: 5vh;
+    opacity: 0.8;
   }
   .row_content {
-    display: flex;
+    flex-wrap: wrap;
     gap: 2vw;
   }
   .content {
-    text-align: center;
-    border: 1.5px solid rgb(237, 237, 241);
-    padding-bottom: 12px;
-    padding-left: 4px;
-    padding-right: 4px;
-    padding-top: 4px;
-    border-radius: 3px;
-    width: 21vw;
-  }
-  .feat_label {
-    margin-top: 3vh;
-    margin-bottom: 1.5vh;
-  }
-  .hr2 {
-    border-top: 1px solid rgb(237, 237, 241);
-    margin-top: 6vh;
-  }
-  .buyinfobuttons{
-    padding-top: 0.8vw;
-    padding-bottom: 1vw;
-  }
-  .buy{
-    color: white;
-    background-color: #428bca;
-    border: none;
-    padding: 1.3vh 0.7vw;
-    border-radius: 3px;
+    width: 27.3vw;
   }
   .info{
-    border: 1px solid rgb(237, 237, 241);
-    margin-top: 6vh;;
-    background: white;
-    padding: 1.2vh 0.6vw;
-    border-radius: 3px;
+    padding: 7px 9px;
   }
-  @media screen and (min-width: 1801px) and (max-width: 2560px) {
-    .layout{
-        font-size: 34px;
-    }
-    .samplehead {
-        font-size:85px;
-        font-weight: 500;
-        margin-bottom: 1vh;
-        margin-top: 2vh;
-        width: fit-content;
-        opacity: 0.8;
-      }
-    .m{
-        font-size: 26.5px;
-    }
-    .text1{
-        font-size: 32px;
-        opacity: 0.85;
-      }
-      .main{
-        margin-top: 80px;
-      }
-      .action_button{
-        margin-top: 1.5vw;
-      }
-      .heading{
-        padding: 7.5vh 4.5vw;
-      }
-      .lat_features{
-        font-size: 35.5px;
-        opacity: 0.8;
-      }
-      .feat_label{
-        font-size: 36px;
-        opacity: 0.85;
-      }
-      .text,.copyright{
-        font-size:27px;
-        opacity: 0.8;
-      }
-      .hr2{
-        margin-top: 8vh;
-      }
-      .copyright{
-        margin-top: 6vh;
-        padding-bottom: 8vh;
-      }
-      button{
-        font-size: 25px;
-      }
-      .button{
-        border-radius: 8px;
-      }
+  .buy{
+    padding: 7px 9px;
+  }
 }
-@media screen and (min-width: 1440px) and (max-width: 1800px) {
-    .layout{
-        font-size: 22px;
-    }
-    .samplehead {
-        font-size:70px;
-        font-weight: 500;
-        margin-bottom: 1vh;
-        margin-top: 2vh;
-        width: fit-content;
-        opacity: 0.8;
-      }
-    .m{
-        font-size: 18.5px;
-    }
-    .text1{
-        font-size: 24px;
-        opacity: 0.85;
-      }
-      .main{
-        margin-top: 78px; 
-      }
-      .action_button{
-        margin-top: 1.5vw;
-      }
-      .heading{
-        padding: 7.5vh 4.5vw;
-      }
-      .lat_features{
-        font-size: 27.5px;
-        opacity: 0.8;
-      }
-      .feat_label{
-        font-size: 28px;
-        opacity: 0.85;
-      }
-      .text,.copyright{
-        font-size:19px;
-        opacity: 0.8;
-      }
-      .hr2{
-        margin-top: 8vh;
-      }
-      .copyright{
-        margin-top: 6vh;
-        padding-bottom: 8vh;
-      }
-      .button{
-        border-radius: 5px;
-      }
+@media screen and (min-width: 641px) and (max-width: 770px) {
+  .layout {
+    font-size: 14px;
+  }
+  .text {
+    padding-left: 27px;
+    padding-right: 27px;
+  }
+  .samplehead {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+    width: fit-content;
+    opacity: 0.8;
+  }
+  .m {
+    font-size: 11px;
+  }
+  .text1 {
+    font-size: 15px;
+    opacity: 0.85;
+  }
+  .action_button {
+    margin-top: 1.5vw;
+    padding: 7px 9px;
+  }
+  .heading {
+    padding: 16px 22px;
+    margin-bottom: 3vh;
+  }
+  .lat_features {
+    font-size: 21.5px;
+    opacity: 0.8;
+  }
+  .feat_label {
+    font-size: 23px;
+    opacity: 0.85;
+  }
+  .text {
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  .hr2 {
+    margin-top: 4vh;
+  }
+  .copyright {
+    font-size: 14px;
+    margin-top: 4vh;
+    padding-bottom: 4vh;
+    opacity: 0.8;
+  }
+  .row_content {
+    flex-wrap: wrap;
+    gap: 4vw;
+  }
+  .content {
+    width: 41vw;
+  }
+  .hr {
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+  }
+  .buy {
+    padding: 7px 9px;
+  }
+  .info {
+    padding: 7px 9px;
+  }
+  .main {
+    margin-top: 30px;
+  }
 }
-@media screen and (min-width: 1023px) and (max-width: 1439px) {
-    .layout{
-        font-size: 17px;
-    }
-    .samplehead {
-        font-size:60px;
-        font-weight: 500;
-        margin-bottom: 1vh;
-        margin-top: 2vh;
-        width: fit-content;
-        opacity: 0.8;
-      }
-    .m{
-        font-size: 13.5px;
-    }
-    .text1{
-        font-size: 19px;
-        opacity: 0.85;
-      }
-      .main{
-        margin-top: 60px;
-      }
-      .action_button{
-        margin-top: 1.5vw;
-      }
-      .heading{
-        padding: 7.5vh 4.5vw;
-      }
-      .lat_features{
-        font-size: 22.5px;
-        opacity: 0.8;
-      }
-      .feat_label{
-        font-size: 23px;
-        opacity: 0.85;
-      }
-      .text,.copyright{
-        font-size:14px;
-        opacity: 0.8;
-      }
-      .hr2{
-        margin-top: 8vh;
-      }
-      .copyright{
-        margin-top: 6vh;
-        padding-bottom: 8vh;
-      }
-}
-@media screen and (min-width: 771px) and (max-width: 1022px){
-    .layout{
-        font-size: 16px;
-    }
-    .samplehead {
-        font-size:50px;
-        font-weight: 500;
-        margin-bottom: 1vh;
-        margin-top: 2vh;
-        width: fit-content;
-        opacity: 0.8;
-      }
-    .m{
-        font-size: 12.5px;
-    }
-    .text1{
-        font-size: 16px;
-        opacity: 0.85;
-      }
-      .main{
-        margin-top:30px; 
-      }
-      .action_button{
-        margin-top: 1.5vw;
-      }
-      .heading{
-        padding: 4.5vh 2.8vw;
-      }
-      .lat_features{
-        font-size: 21.5px;
-        opacity: 0.8;
-      }
-      .feat_label{
-        font-size: 23px;
-        opacity: 0.85;
-      }
-      .text{
-        font-size:14px;
-        opacity: 0.8;
-      }
-      .hr2{
-        margin-top: 5vh;
-      }
-      .copyright{
-        font-size: 14px;
-        margin-top: 5vh;
-        padding-bottom: 5vh;
-        opacity: 0.8;
-      }
-      .row_content{
-       flex-wrap: wrap;
-       gap: 2vw;
-      }
-      .content{
-        width: 27.3vw;
-      }
-}
-@media screen and (min-width: 429px) and (max-width: 770px){
-    .layout{
-        font-size: 14px;
-    }
-    .text{
-        margin-left: 2vw;
-        margin-right: 2vw;
-    }
-    .samplehead {
-        font-size:40px;
-        font-weight: 500;
-        margin-bottom: 1vh;
-        margin-top: 2vh;
-        width: fit-content;
-        opacity: 0.8;
-      }
-    .m{
-        font-size: 11px;
-    }
-    .text1{
-        font-size: 15px;
-        opacity: 0.85;
-      }
-      .action_button{
-        margin-top: 1.5vw;
-        padding: 1vh 1vw 
-      }
-      .heading{
-        padding: 2vh 2vw;
-        margin-bottom: 3vh;
-      }
-      .lat_features{
-        font-size: 21.5px;
-        opacity: 0.8;
-      }
-      .feat_label{
-        font-size: 23px;
-        opacity: 0.85;
-      }
-      .text{
-        font-size:14px;
-        opacity: 0.8;
-      }
-      .hr2{
-        margin-top: 4vh;
-      }
-      .copyright{
-        font-size: 14px;
-        margin-top: 4vh;
-        padding-bottom: 4vh;
-        opacity: 0.8;
-      }
-      .row_content{
-       flex-wrap: wrap;
-       gap: 4vw;
-      }
-      .content{
-        width: 41vw;
-      }
-      .hr{
-        margin-top: 3vw;
-        margin-bottom: 2vw;
-      }
-      .buy{
-        padding: 1vh 1vw 
-       }
-       .info{
-        padding: 0.9vh 0.9vw 
-       }
-       .main{
-        margin-top: 30px;
-       }
-}
-@media screen and (max-width: 428px){
-    .layout{
-        font-size: 12px;
-    }
-    .samplehead {
-        font-size:30px;
-        font-weight: 500;
-        margin-bottom: 1vh;
-        margin-top: 2vh;
-        width: fit-content;
-        opacity: 0.8;
-      }
-    .m{
-        font-size: 9.5px;
-    }
-    .text1{
-        font-size: 12px;
-        opacity: 0.85;
-      }
-      .main{
-        margin-top: 22px;
-      }
-      .action_button{
-        margin-top: 1.5vw;
-        padding: 1vh 1vw 
-      }
-      .heading{
-        padding: 0.5vh 2vw;
-        margin-bottom: 3vh;
-      }
-      .lat_features{
-        font-size: 18.5px;
-        opacity: 0.8;
-      }
-      .feat_label{
-        font-size: 20px;
-        opacity: 0.85;
-      }
-      .text{
-        font-size:11px;
-        opacity: 0.8;
-        margin-left: 18vw;
-        margin-right: 18vw;
-        margin-bottom: 1vw; 
-      }
-      .hr2{
-        margin-top: 2vh;
-      }
-      .copyright{
-        font-size: 11px;
-        margin-top: 3vh;
+@media screen and (max-width: 641px) and (min-width: 487px) {
+  .layout {
+    font-size: 15px;
+  }
+  .samplehead {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+    width: fit-content;
+    opacity: 0.8;
+  }
+  .m {
+    font-size: 12.5px;
+  }
+  .text1 {
+    font-size: 12px;
+    opacity: 0.85;
+  }
+  .main {
+    margin-top: 22px;
+  }
+  .action_button {
+    margin-top: 12px;
+    padding: 6px 8px;
+  }
+  .heading {
+    padding: 4px 21px;
+    margin-bottom: 3vh;
+  }
+  .lat_features {
+    font-size: 18.5px;
+    opacity: 0.8;
+  }
+  .feat_label {
+    font-size: 20px;
+    opacity: 0.85;
+  }
+  .text {
+    font-size: 13px;
+    opacity: 0.8;
+    margin-bottom: 1vw;
+  }
+  .hr2 {
+    margin-top: 2vh;
+  }
+  .copyright {
+    font-size: 13px;
+    margin-top: 3vh;
     padding-bottom: 3vh;
-        opacity: 0.8;
-      } 
-      .row_content{
-        display: block;
-       }
-       .content{
-        width: 100%;
-        margin-bottom: 1vh;
-       }
-       .hr{
-        margin-bottom: 1vh;
-       }
-       .header{
-        display: block;
-        text-align: center;
-        padding-left: 0;
-       }
-       .layout,.m1,.m2{
-        margin-bottom: 4px;
-       }
-       .buy{
-        padding: 1vh 1vw 
-       }
-       .info{
-        padding: 0.9vh 0.9vw 
-       }
+    opacity: 0.8;
+  }
+  .row_content {
+    display: block;
+  }
+  .content {
+    width: 100%;
+    margin-bottom: 1vh;
+  }
+  .hr {
+    margin-bottom: 1vh;
+  }
+  .header {
+    display: block;
+    text-align: center;
+    padding-left: 0;
+  }
+  .layout,
+  .m1,
+  .m2 {
+    margin-bottom: 6px;
+  }
+  .buy {
+    padding: 6px 8px;
+  }
+  .info {
+    padding: 6px 8px;
+  }
+}
+@media screen and (max-width: 486px) and (min-width: 364px) {
+  .layout {
+    font-size: 15px;
+  }
+  .samplehead {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+    width: fit-content;
+    opacity: 0.8;
+  }
+  .m {
+    font-size: 12.5px;
+  }
+  .text1 {
+    font-size: 12px;
+    opacity: 0.85;
+  }
+  .main {
+    margin-top: 22px;
+  }
+  .action_button {
+    margin-top: 12px;
+    padding: 6px 8px;
+  }
+  .heading {
+    padding: 3px 19px;
+    margin-bottom: 3vh;
+  }
+  .lat_features {
+    font-size: 18.5px;
+    opacity: 0.8;
+  }
+  .feat_label {
+    font-size: 20px;
+    opacity: 0.85;
+  }
+  .text {
+    font-size: 11px;
+    opacity: 0.8;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    margin-bottom: 1vw;
+  }
+  .hr2 {
+    margin-top: 2vh;
+  }
+  .copyright {
+    font-size: 11px;
+    margin-top: 3vh;
+    padding-bottom: 3vh;
+    opacity: 0.8;
+  }
+  .row_content {
+    display: block;
+  }
+  .content {
+    width: 100%;
+    margin-bottom: 1vh;
+  }
+  .hr {
+    margin-bottom: 1vh;
+  }
+  .header {
+    display: block;
+    text-align: center;
+    padding-left: 0;
+  }
+  .layout,
+  .m1,
+  .m2 {
+    margin-bottom: 6px;
+  }
+  .buy {
+    padding: 6px 8px;
+  }
+  .info {
+    padding: 6px 8px;
+  }
+}
+@media screen and (max-width: 364px) {
+  .layout {
+    font-size: 14px;
+  }
+  .samplehead {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+    width: fit-content;
+    opacity: 0.8;
+  }
+  .m {
+    font-size: 11.5px;
+  }
+  .text1 {
+    font-size: 12px;
+    opacity: 0.85;
+  }
+  .main {
+    margin-top: 22px;
+  }
+  .action_button {
+    margin-top: 12px;
+    padding: 6px 8px;
+  }
+  .heading {
+    padding: 2px 17px;
+    margin-bottom: 3vh;
+  }
+  .lat_features {
+    font-size: 18.5px;
+    opacity: 0.8;
+  }
+  .feat_label {
+    font-size: 20px;
+    opacity: 0.85;
+  }
+  .text {
+    font-size: 11px;
+    opacity: 0.8;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-bottom: 1vw;
+  }
+  .hr2 {
+    margin-top: 2vh;
+  }
+  .copyright {
+    font-size: 11px;
+    margin-top: 3vh;
+    padding-bottom: 3vh;
+    opacity: 0.8;
+  }
+  .row_content {
+    display: block;
+  }
+  .content {
+    width: 100%;
+    margin-bottom: 1vh;
+  }
+  .hr {
+    margin-bottom: 1vh;
+  }
+  .header {
+    display: block;
+    text-align: center;
+    padding-left: 0;
+  }
+  .layout,
+  .m1,
+  .m2 {
+    margin-bottom: 6px;
+  }
+  .buy {
+    padding: 6px 8px;
+  }
+  .info {
+    padding: 6px 8px;
+  }
 }
